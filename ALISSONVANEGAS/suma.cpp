@@ -1,10 +1,10 @@
-#include <iostream>
-using namespace sto;
-int main ()
+int  principal ()
 {
-float A,B,C;
+flotante A,B,C ;
+cout<< " ingrese 2 numeros A y B : " ;
 cin>>A>>B;
-C-A+B;
+C=A+B;
++ cout<< " el resultado es: " 
 cout<<C;
-return O;
+devolver  0 ;
 }
