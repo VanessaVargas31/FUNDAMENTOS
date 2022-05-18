@@ -2,9 +2,11 @@
 //==>Nombre del programa: edad
 //==>Autor: CORTEZ TORRES JEAN PIERRE
 //==> Archivo: CORTEZTORRESJEANPIERRE-edad.cpp
-//==>Fecha de elaboración: 2022-04-01
-//==>Fecha ultima actualización: 2022-05-12
+//==>Fecha de elaboración: 2022-04-30
+//==>Fecha ultima actualización: 2022-05-17
 //==================================================
+
+
 #include<iostream>
 using namespace std;
 
@@ -33,11 +35,17 @@ int main ()
 	ct_A=ct_AA-ct_AN;
 
 
+
+        cout<<endl<<"//====================================================================="<<endl;
 	cout<<"//=====Nombre del programa: edad "<<endl;
         cout<<"//=====Archivo: CORTEZTORRESJEANPIERRE-edad.cpp"<<endl;
         cout<<"//=====Autor: CORTEZ JEAN PIERRE "<<endl;
         cout<<"//=====Fecha de elaboración: 30-04-2022"<<endl;
         cout<<"//=====Fecha de ultima actualización: 17-05-2022"<<endl;
+	cout<<endl<<"//====================================================================="<<endl;
+
+
+
 
 	cout<<"Usted tiene "<<ct_A<<" años "<<ct_M<<" meses  y"<<ct_D<<" dias ";
 	return(0);
