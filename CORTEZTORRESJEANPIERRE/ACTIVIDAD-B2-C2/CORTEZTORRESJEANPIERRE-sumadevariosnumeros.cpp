@@ -1,7 +1,7 @@
 //==================================================
-//==>Nombre del programa: Compara
+//==>Nombre del programa: suma de varios números
 //==>Autor: CORTEZ TORRES JEAN PIERRE
-//==> Archivo: CORTEZTORRESJEANPIERRE-compara.cpp
+//==> Archivo: CORTEZTORRESJEANPIERRE-sumadevariosnúmeros.cpp
 //==>Fecha de elaboración: 2022-04-01
 //==>Fecha ultima actualización: 2022-05-12
 //==================================================
@@ -25,8 +25,8 @@ int main()
        } while(ct_c<ct_n);
 
 
-        cout<<"//=====Nombre del programa: edad "<<endl;
-        cout<<"//=====Archivo: CORTEZTORRESJEANPIERRE-edad.cpp"<<endl;
+        cout<<"//=====Nombre del programa: suma de varios números "<<endl;
+        cout<<"//=====Archivo: CORTEZTORRESJEANPIERRE-sumadevariosnúmeros.cpp"<<endl;
         cout<<"//=====Autor: CORTEZ JEAN PIERRE "<<endl;
         cout<<"//=====Fecha de elaboración: 30-04-2022"<<endl;
         cout<<"//=====Fecha de ultima actualización: 17-05-2022"<<endl;
