@@ -22,14 +22,17 @@ int main()
     ct_c=ct_c+1;
     ct_s=ct_s+ct_x;
        } while(ct_c<ct_n);
-//==================================================
-//==>Nombre del programa: sumadevariosnumeros
-//==>Autor: CORTEZ TORRES JEAN PIERRE
-//==> Archivo: CORTEZTORRESJEANPIERRE-sumadevariosnumeros.cpp
-//==>Fecha de elaboración: 2022-04-01
-//==>Fecha ultima actualización: 2022-05-12
-//==================================================
-            cout<<"Ingrese un número  para sumarlo: "<<ct_s<<endl;
+
+
+        cout<<"//=====Nombre del programa: edad "<<endl;
+        cout<<"//=====Archivo: CORTEZTORRESJEANPIERRE-edad.cpp"<<endl;
+        cout<<"//=====Autor: CORTEZ JEAN PIERRE "<<endl;
+        cout<<"//=====Fecha de elaboración: 30-04-2022"<<endl;
+        cout<<"//=====Fecha de ultima actualización: 17-05-2022"<<endl;
+
+
+
+       cout<<"Ingrese un número  para sumarlo: "<<ct_s<<endl;
         
         return(0);
 }
