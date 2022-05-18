@@ -32,13 +32,14 @@ ct_iva=ct_Tb*ct_Piva/100;
 ct_desc=ct_Tb*ct_Pdsc/100;
 }else{
 ct_vt=ct_A+ct_Piva-ct_Pdsc;
-//==================================================
-//==>Nombre del programa: puntodeventa
-//==>Autor: CORTEZ TORRES JEAN PIERRE
-//==> Archivo: CORTEZTORRESJEANPIERRE-puntodeventa.cpp
-//==>Fecha de elaboración: 2022-04-01
-//==>Fecha ultima actualización: 2022-05-12
-//==================================================
+
+
+        cout<<"//=====Nombre del programa: punto de venta "<<endl;
+        cout<<"//=====Archivo: CORTEZTORRESJEANPIERRE-puntodeventa.cpp"<<endl;
+        cout<<"//=====Autor: CORTEZ JEAN PIERRE "<<endl;
+        cout<<"//=====Fecha de elaboración: 30-04-2022"<<endl;
+        cout<<"//=====Fecha de ultima actualización: 17-05-2022"<<endl;
+
 cout<<"El valor total es de: $"<<ct_vt<<endl;
 }
 return(0);
