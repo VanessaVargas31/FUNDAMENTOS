@@ -42,7 +42,7 @@ int main ()
         cout<<"//=====Autor: CORTEZ JEAN PIERRE "<<endl;
         cout<<"//=====Fecha de elaboración: 30-04-2022"<<endl;
         cout<<"//=====Fecha de ultima actualización: 17-05-2022"<<endl;
-	cout<<endl<<"//====================================================================="<<endl;
+	cout<<"//====================================================================="<<endl;
 
 
 
