@@ -27,13 +27,15 @@ int main()
 		ct_a2=ct_a2+ct_x;
 	}
 	}while(ct_c<ct_n);
-//==================================================
-//==>Nombre del programa: cuentamoneda
-//==>Autor: CORTEZ TORRES JEAN PIERRE
-//==> Archivo: CORTEZTORRESJEANPIERRE-cuentamoneda.cpp
-//==>Fecha de elaboración: 2022-04-01
-//==>Fecha ultima actualización: 2022-05-12
-//==================================================
+
+
+
+	cout<<"//=====Nombre del programa: cuenta moneda "<<endl;
+        cout<<"//=====Archivo: CORTEZTORRESJEANPIERRE-cuentamoneda.cpp"<<endl;
+        cout<<"//=====Autor: CORTEZ JEAN PIERRE "<<endl;
+        cout<<"//=====Fecha de elaboración: 30-04-2022"<<endl;
+        cout<<"//=====Fecha de ultima actualización: 17-05-2022"<<endl;
+
 	cout<<"El total de monedas fue : "<<endl;
 	cout<<"Cantidad de monedas ingresadas : "<<ct_c<<endl;
 	cout<<"El total del dinero contado es de : "<<ct_a<<endl;
