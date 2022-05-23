@@ -189,7 +189,7 @@ int CortezJeanmenu()
 			cout<<"2.- COMPARA 2 NUMEROS.\n";
 			cout<<"3.- PUNTO DE VENTA \n"; 
 			cout<<"4.- CALCULA EDAD. \n";
-			cout<<"5.- MAQUINA CUANTA MONEDA.\n";
+			cout<<"5.- MAQUINA CUENTA MONEDA.\n";
 			cout<<"0.- Salir del menu. \n";
 			cout<<" Ingrese una opcion : "; cin>>op; //la variable op siver para la oppcion a escoger
 			switch(op){
@@ -215,7 +215,7 @@ int CortezJeanmenu()
 					break;
 				case 5:
 					system("clear");
-					cout<<"\n MAQUINA CUANTA MONEDAS ";
+					cout<<"\n MAQUINA CUENTA MONEDAS ";
 					CortezJeancuentamoneda();
 					break;
 				

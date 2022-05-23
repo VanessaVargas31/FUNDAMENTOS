@@ -16,7 +16,7 @@ int main()
 
 	do{
 			system("clear");
-			cout<<"**************PROGRAMACION**************"<<endl<<endl;
+			cout<<"**************BIENVENIDO A NUESTRO MENU DE PROGAMAS C++**************"<<endl<<endl;
 			cout<<"1.- Trabajos de VARGAS VANESSA \n";
 			cout<<"2.- Trabajos de CORTEZ JEAN\n";
 			cout<<"3.- Trabajos de  \n"; 
@@ -55,7 +55,7 @@ int main()
 				   
 	}while(op!=0);
 	
-         cout<<endl<<"// Autores: VARGAS VANESSA    \n";
+         cout<<endl<<"// Autores: VARGAS VANESSA, CORTEZ JEAN    \n";
 	 cout<<"=================================================================================\n";
          cout<<"//                     Fecha de creación: 2022-05-12                             \n";
 	 cout<<"//===============================================================================\n";
