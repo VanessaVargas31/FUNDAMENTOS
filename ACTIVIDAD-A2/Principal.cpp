@@ -6,6 +6,7 @@
 #include<stdlib.h>
 using namespace std;
 #include"VARGASVANESSA.h"
+#include"CortezJean.h"
 
 
 int main()
@@ -17,7 +18,7 @@ int main()
 			system("clear");
 			cout<<"**************Programacion **************"<<endl<<endl;
 			cout<<"1.- Trabajos de VARGAS VANESSA \n";
-			cout<<"2.- Trabajos de .\n";
+			cout<<"2.- Trabajos de Cortez Jean\n";
 			cout<<"3.- Trabajos de  \n"; 
 			cout<<"4.- Trabajos de  \n";
 			cout<<"0.- Salir del menu. \n";
@@ -28,8 +29,8 @@ int main()
 					VARGASVANESSAmenu();			
 					break;
 				case 2:
-					cout<<"\n AQUI PUEDO REVISAR LOS TRABAJO DE   ";
-				
+					cout<<"\n AQUI PUEDO REVISAR LOS TRABAJO DE Cortez Jean   ";
+				CortezJeanmenu();
 					break;
 				case 3:
 					
