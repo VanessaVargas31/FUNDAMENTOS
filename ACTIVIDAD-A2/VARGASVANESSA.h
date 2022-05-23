@@ -8,7 +8,7 @@
 //
 
 
-int VARGASVANESSASumaN()
+int VARGASVANESSASumadevariosnumeros()
 {
 int VV_c=0, VV_n;
 	float VV_s=0, VV_x;
@@ -26,7 +26,7 @@ int VV_c=0, VV_n;
 
 	cout<<endl<<"//==============================================================="<<endl;
 	cout<<"//===>Nombre del programa: Suma de varios numero"<<endl;
-	cout<<"//===>Archivo: VARGASVANESSA-Sumadevariosnumeros.cpp"<<endl;
+	cout<<"//===>Archivo: VARGASVANESScout-Sumadevariosnumeros.cpp"<<endl;
 	cout<<"//===>Autora: Vargas Vanessa"<<endl;
 	cout<<"//===>Fecha de elaboración: 30-04-2022"<<endl;
 	cout<<"//===>Fecha de ultima actualización: 18-05-2022"<<endl;
@@ -52,12 +52,14 @@ float VV_A,VV_B;
 	if(VV_A<VV_B){
 	
 	
-	
-	cout<<"//=====Nombre del programa: Compara de dos numeros"<<endl;
-	cout<<"//=====Archivo: VARGASVANESSA-Compara.cpp"<<endl;
-	cout<<"//=====Autor: Vargas Vanessa"<<endl;
-	cout<<"//=====Fecha de elaboración: 30-04-2022"<<endl;
-	cout<<"//=====Fecha de ultima actualización: 17-05-2022"<<endl;
+        cout<<endl<<"//====================================================================="<<endl;
+        cout<<"//=====Nombre del programa: compara "<<endl;
+        cout<<"//=====Archivo: VARGASVANESSA-Compara.cpp"<<endl;
+        cout<<"//=====Autora: VARGAS VANESSA "<<endl;
+        cout<<"//=====Fecha de elaboración: 30-04-2022"<<endl;
+        cout<<"//=====Fecha de ultima actualización: 18-05-2022"<<endl;
+        cout<<"//====================================================================="<<endl;
+
 	
 
 
@@ -118,7 +120,7 @@ int VV_C=0, VV_P;
 	
 }
 
-int VARGASVANESSAlaedad(){
+int VARGASVANESSALaedad(){
 	
 int VV_AA,VV_MA,VV_DA,VV_AN,VV_MN,VV_DN,VV_A,VV_M,VV_D;
 	cout<<"Ingrese la fecha actual (VV_AAAA VV_MM VV_DD): ";
@@ -192,6 +194,14 @@ int VARGASVANESSACuentaMoneda(){
 	cout<<"//===>Fecha de ultima actualización: 18-05-2022"<<endl;
 	cout<<"//==========================================================================="<<endl;
 
+	cout<<"El total de monedas fue : "<<endl;
+        cout<<"Cantidad de monedas ingresadas : "<<VV_c<<endl;
+        cout<<"El total del dinero contado es de : "<<VV_a<<endl;
+        cout<<"Monedas ingresadas de 0.10 ctvos es de :"<<VV_c1<<endl;
+        cout<<"Cantidad total de monedas de 0.10 ctvos es de : "<<VV_a1<<endl;
+        cout<<"Monedas ingresadas de 0.25 ctvos es de : "<<VV_c2<<endl;
+        cout<<"Cantidad total de monedas de 0.25 ctvos es de : "<<VV_a2<<endl;
+
 
 	return (0);
  
@@ -210,18 +220,18 @@ int VARGASVANESSAmenu()
 			cout<<"2.- COMPARA 2 NUMEROS.\n";
 			cout<<"3.- PUNTO DE VENTA \n"; 
 			cout<<"4.- CALCULA EDAD. \n";
-			cout<<"5.- MAQUINA CUANTA MONEDA.\n";
+			cout<<"5.- MAQUINA CUENTA MONEDA.\n";
 			cout<<"0.- Salir del menu. \n";
 			cout<<" Ingrese una opcion : "; cin>>op; //la variable op siver para la oppcion a escoger
 			switch(op){
 				case 1:
 					system("clear");
 					cout<<"\n SUMA VARIOS NUMEROS  "<<endl;
-					 VARGASVANESSASumaN();			
+					 VARGASVANESSASumadevariosnumeros();			
 					break;
 				case 2:
 					system("clear");
-					cout<<"\nCOMPARA 2 NUIMEROS ";
+					cout<<"\nCOMPARA 2 NUMEROS ";
 					VARGASVANESSACompara();
 					break;
 				case 3:
@@ -232,11 +242,11 @@ int VARGASVANESSAmenu()
 				case 4:
 					system("clear");
 					cout<<"\n CALCULA LA EDAD ";
-					VARGASVANESSAlaedad();
+					VARGASVANESSALaedad();
 					break;
 				case 5:
 					system("clear");
-					cout<<"\n MAQUINA CUANTA MONEDAS ";
+					cout<<"\n MAQUINA CUENTA MONEDAS ";
 					VARGASVANESSACuentaMoneda();
 					break;
 				
@@ -254,7 +264,7 @@ int VARGASVANESSAmenu()
 	
 	cout<<"================================================\n";
 	cout<<"                 VARGAS VANESSA               \n";
-	cout<<" Gmail:  \n";
+	cout<<" Gmail:roshiitoral312@gmail.com  \n";
 	cout<<"=================================================\n";
 
 	return(0);

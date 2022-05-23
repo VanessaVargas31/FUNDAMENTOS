@@ -16,9 +16,9 @@ int main()
 
 	do{
 			system("clear");
-			cout<<"**************Programacion **************"<<endl<<endl;
+			cout<<"**************PROGRAMACION**************"<<endl<<endl;
 			cout<<"1.- Trabajos de VARGAS VANESSA \n";
-			cout<<"2.- Trabajos de Cortez Jean\n";
+			cout<<"2.- Trabajos de CORTEZ JEAN\n";
 			cout<<"3.- Trabajos de  \n"; 
 			cout<<"4.- Trabajos de  \n";
 			cout<<"0.- Salir del menu. \n";
