@@ -21,8 +21,8 @@ int CortezJeansumadevariosnumeros()
 
 
 cout<<endl<<"//================================================"<<endl;
-cout<<"//==> Nombre del programa: Comparacion de dos numeros"<<endl;
-cout<<"//==> Archivo : CortezJeancompara.cpp"<<endl;
+cout<<"//==> Nombre del programa: Suma de dos numeros"<<endl;
+cout<<"//==> Archivo : CortezJean-sumadevariosnumeros.cpp"<<endl;
 cout<<"//==>Autor: Cortez Jean"<<endl;
 cout<<"//==>Fecha de elaboración: 2022-04-30"<<endl;
 cout<<"//==>Fecha ultima actualización: 2022-05-17"<<endl;
@@ -52,8 +52,8 @@ if(ct_A==ct_B){
 }
 }
 cout<<endl<<"//================================================"<<endl;
-cout<<"//==> Nombre del programa: Comparacion de dos numeros"<<endl;
-cout<<"//==> Archivo : CortezJeancompara.cpp"<<endl;
+cout<<"//==> Nombre del programa: Compara de dos numeros"<<endl;
+cout<<"//==> Archivo : CortezJean-compara.cpp"<<endl;
 cout<<"//==>Autor: Cortez Jean"<<endl;
 cout<<"//==>Fecha de elaboración: 2022-04-30"<<endl;              
 cout<<"//==>Fecha ultima actualización: 2022-05-17"<<endl;        
@@ -85,7 +85,7 @@ int ct_c=0,ct_cp;
 	}
 	cout<<endl<<"//================================================"<<endl;
 cout<<"//==> Nombre del programa: Punto de Venta"<<endl;
-cout<<"//==> Archivo : CortezJeanpuntodeventa.cpp"<<endl;
+cout<<"//==> Archivo : CortezJean-puntodeventa.cpp"<<endl;
 cout<<"//==>Autor: Cortez Jean"<<endl;
 cout<<"//==>Fecha de elaboración: 2022-04-30"<<endl;              
 cout<<"//==>Fecha ultima actualización: 2022-05-17"<<endl;        
@@ -127,7 +127,7 @@ cout<<"La persona tiene :"<<ct_a<<" años "<<ct_m<< " meses y  "<<ct_d<< " dias 
 
 cout<<endl<<"//================================================"<<endl;
 cout<<"//==> Nombre del programa: Edad"<<endl;
-cout<<"//==> Archivo : CortezJeanedad.cpp"<<endl;
+cout<<"//==> Archivo : CortezJean-edad.cpp"<<endl;
 cout<<"//==>Autor: Cortez Jean "<<endl;
 cout<<"//==>Fecha de elaboración: 2022-04-30"<<endl;              
 cout<<"//==>Fecha ultima actualización: 2022-05-17"<<endl;        
@@ -166,8 +166,8 @@ cout<<"Cantidad total de dinero en monedas de 0.25c : "<<ct_a2<<endl;
 
 
 cout<<endl<<"//================================================"<<endl;
-cout<<"//==> Nombre del programa: Contador de monedas"<<endl;
-cout<<"//==> Archivo : CortezJeancuentamoneda.cpp"<<endl;
+cout<<"//==> Nombre del programa: Cuenta monedas"<<endl;
+cout<<"//==> Archivo : CortezJean-cuentamoneda.cpp"<<endl;
 cout<<"//==>Autor: Cortez Jean "<<endl;
 cout<<"//==>Fecha de elaboración: 2022-04-30"<<endl;              
 cout<<"//==>Fecha ultima actualización: 2022-05-17"<<endl;        
@@ -231,7 +231,10 @@ int CortezJeanmenu()
 
 	}while(op!=0);
 	
-	
+	cout<<"================================================\n";
+        cout<<"                 Cortez Jean              \n";
+        cout<<"           Gmail:sc834374@gmail.com  \n";
+        cout<<"=================================================\n";
 
 	return(0);
 
