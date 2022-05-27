@@ -230,19 +230,17 @@ int CortezJeanmenu()
 				                        flag2=cin.ignore().get(); // Esta linea detiene la patalla hasta que el usuairo presione alguna tecla
 
 	}while(op!=0);
-<<<<<<< HEAD
 	
 	cout<<"================================================\n";
         cout<<"                 Cortez Jean              \n";
         cout<<"           Gmail:sc834374@gmail.com  \n";
         cout<<"=================================================\n";
-=======
         cout<<"================================================\n";
 	cout<<"                 Cortez Jean                    \n";
 	cout<<" Gmail:jean.cortez.torres@utelvt.edu.ecu  \n";
 	cout<<"=================================================\n";	
 	
->>>>>>> a34349d8fdb60b2adfd8b9de98f13e6cbf584da0
+
 
 	return(0);
 
