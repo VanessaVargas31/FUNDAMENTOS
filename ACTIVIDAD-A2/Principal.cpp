@@ -1,4 +1,4 @@
-// Autores: VARGAS VANESSA
+// Autores: VARGAS VANESSA, CORTEZ JEAN, PRECIADO LUIS, VANEGAS ALISSON.
 // Fecha de creacion: 2022-05-12
 // Fecha de ultima actualizacion: 2022-05-22
 
@@ -7,7 +7,8 @@
 using namespace std;
 #include"VARGASVANESSA.h"
 #include"CortezJean.h"
-
+#include"LM_FUCTIONS.h"
+#include"AC_FUNCIONES.h"
 
 int main()
 {
@@ -19,8 +20,8 @@ int main()
 			cout<<"**************BIENVENIDO A NUESTRO MENU DE PROGAMAS C++**************"<<endl<<endl;
 			cout<<"1.- Trabajos de VARGAS VANESSA \n";
 			cout<<"2.- Trabajos de CORTEZ JEAN\n";
-			cout<<"3.- Trabajos de  \n"; 
-			cout<<"4.- Trabajos de  \n";
+			cout<<"3.- Trabajos de PRECIADO LUIS \n"; 
+			cout<<"4.- Trabajos de VANEGAS ALISSON \n";
 			cout<<"0.- Salir del menu. \n";
 			cout<<" Ingrese una opcion : "; cin>>op; //la variable op siver para la oppcion a escoger
 			switch(op){
@@ -30,17 +31,17 @@ int main()
 					break;
 				case 2:
 					cout<<"\n AQUI PUEDO REVISAR LOS TRABAJO DE Cortez Jean   ";
-				CortezJeanmenu();
+				        CortezJeanmenu();
 					break;
 				case 3:
 					
-					cout<<"\n AQUI PUEDO REVISAR LOS TRABAJO DE  ";
-					
+					cout<<"\n AQUI PUEDO REVISAR LOS TRABAJO DE PRECIADO LUIS  ";
+					LM_Menu();
 					break;
 				case 4:
-				
-					cout<<"\n AQUI PUEDO REVISAR LOS TRABAJO DE  ";
-				
+				        
+					cout<<"\n AQUI PUEDO REVISAR LOS TRABAJO DE VANEGAS ALISSON ";
+				        AC_Menu();
 					break;
 				
 				}
@@ -55,7 +56,7 @@ int main()
 				   
 	}while(op!=0);
 	
-         cout<<endl<<"// Autores: VARGAS VANESSA, CORTEZ JEAN    \n";
+         cout<<endl<<"// Autores: VARGAS VANESSA, CORTEZ JEAN, PRECIADO LUIS, VANEGAS ALISSON.    \n";
 	 cout<<"=================================================================================\n";
          cout<<"//                     Fecha de creación: 2022-05-12                             \n";
 	 cout<<"//===============================================================================\n";
